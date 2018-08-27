@@ -1,0 +1,64 @@
+
+--To disassociate working directory with remove repo
+rm -rf .git
+
+--To associate checkins
+git config user.name "Ritesh Mehta"
+git config user.email "riteshbm@yahoo.com"
+
+--if you want globally 
+git config --global user.name "Ritesh Mehta"
+git config --global user.email "riteshbm@yahoo.com"
+
+--for ignoring files
+touch .gitignore
+
+--for help
+git <action> --help 
+eg. git add --help
+
+--status
+git status
+
+--put to staging
+git add -A (all files)
+git add <fileName>
+
+--commit
+git commit -m "someddd"
+
+--Move back from staging to uncommitted
+git reset <filename>
+git reset (all files)
+
+--info about remote repo
+git remote -v
+
+--info about branch
+git branch -a
+
+--create a branch
+git branch <branchname>
+
+--current branch working on
+git branch
+
+--switch branch
+git checkout <branchname>
+
+--push a branch to remote repo
+git push -u origin testbranch
+
+--find branches merged into master
+git branch --merged
+
+--get latest from remote repo
+git pull origin master
+
+--push changes to remote repo
+git push origin master
+
+--delete a branch
+git branch -d <branchname> (only local)
+git push origin --delete <branchname> (remote)
+
