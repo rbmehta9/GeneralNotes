@@ -1,0 +1,9 @@
+--generate an output file
+command >> output.txt
+
+
+
+
+--Bash
+--Go up one directory
+cd ..  (space between cd and .)
