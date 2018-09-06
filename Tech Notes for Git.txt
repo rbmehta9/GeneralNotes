@@ -63,3 +63,14 @@ git push origin master
 git branch -d <branchname> (only local)
 git push origin --delete <branchname> (remote)
 
+
+
+Please enter a commit message to explain why this merge is necessary, especially if it merges an updated upstream into a topic branch
+To solve this:
+
+press "i"
+write your merge message
+press "esc"
+write ":wq"
+then press enter
+
