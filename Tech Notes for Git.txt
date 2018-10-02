@@ -74,3 +74,8 @@ press "esc"
 write ":wq"
 then press enter
 
+
+
+To clean
+git clean -xfd
+

@@ -7,3 +7,8 @@ command >> output.txt
 --Bash
 --Go up one directory
 cd ..  (space between cd and .)
+
+vi editor
+to edit press i for insert
+esc + :wq to save
+
