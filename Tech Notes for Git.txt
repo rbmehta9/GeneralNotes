@@ -24,6 +24,7 @@ git status
 git add -A (all files)
 git add <fileName>
 git add -- . ':!ContentDirect/environment.config'  (exclude the environment.config file)
+git add -- . ':!ContentDirect/environment.config' ':!ContentDirect/MojoTools/TestAutomation/QADB/skynet.local.r.cfg'
 
 --commit
 git commit -m "someddd"
