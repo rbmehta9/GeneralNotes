@@ -64,6 +64,9 @@ git push origin master
 git branch -d <branchname> (only local)
 git push origin --delete <branchname> (remote)
 
+--clone a repo with branch
+git clone -b PD-382472-metadata-caching-issue-adding-new-adhoc-brc-plan-to-existing-product http://mehrit01@bitbucket.csgi.com/scm/asc/ascendon-core.git
+
 
 
 Please enter a commit message to explain why this merge is necessary, especially if it merges an updated upstream into a topic branch
