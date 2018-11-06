@@ -67,6 +67,8 @@ git push origin --delete <branchname> (remote)
 --clone a repo with branch
 git clone -b PD-382472-metadata-caching-issue-adding-new-adhoc-brc-plan-to-existing-product http://mehrit01@bitbucket.csgi.com/scm/asc/ascendon-core.git
 
+--revert a file to a previous commit
+git checkout 3343c089 "ContentDirect/Db/content_direct_subscriber_management/Stored Procedures/dbo.product_pricing_plan_ret.sql"
 
 
 Please enter a commit message to explain why this merge is necessary, especially if it merges an updated upstream into a topic branch
