@@ -25,6 +25,7 @@ git add -A (all files)
 git add <fileName>
 git add -- . ':!ContentDirect/environment.config'  (exclude the environment.config file)
 git add -- . ':!ContentDirect/environment.config' ':!ContentDirect/MojoTools/TestAutomation/QADB/skynet.local.r.cfg'
+git add -- . ':!ContentDirect/environment.config' ':!ContentDirect/MojoTools/TestAutomation/QADB/skynet.local.r.cfg' ':!ContentDirect/CoreService/Features/App.config'
 
 --commit
 git commit -m "someddd"
@@ -68,8 +69,7 @@ git push origin --delete <branchname> (remote)
 git clone -b PD-382472-metadata-caching-issue-adding-new-adhoc-brc-plan-to-existing-product http://mehrit01@bitbucket.csgi.com/scm/asc/ascendon-core.git
 
 --revert a file to a previous commit
-git checkout 3343c089 "ContentDirect/Db/content_direct_subscriber_management/Stored Procedures/dbo.product_pricing_plan_ret.sql"
-
+git checkout 3343c089 "ContentDirect/Db/content_direct_subscriber_management/Stored Procedures/dbo.product_pricing_plan_ret.sql"  "ContentDirect/Db/content_direct_subscriber_management/Stored Procedures/Change/dbo.product_pricing_plan_ret.sql"
 
 Please enter a commit message to explain why this merge is necessary, especially if it merges an updated upstream into a topic branch
 To solve this:
@@ -84,4 +84,13 @@ then press enter
 
 To clean
 git clean -xfd
+
+To have git push to current branch
+You can configure git to push to the current branch using the following command
+
+git config --global push.default current
+then just do
+
+git push 
+this will push the code to your current branch.
 
