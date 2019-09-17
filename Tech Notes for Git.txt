@@ -94,3 +94,8 @@ then just do
 git push 
 this will push the code to your current branch.
 
+Change Path executable for windows service
+SC CONFIG ContentDirectWorkflowService binPath= "d:\apps\contentdirect\workflowmanagement\bin\ContentDirect.WorkflowManagement.WindowsService.exe"
+
+
+
