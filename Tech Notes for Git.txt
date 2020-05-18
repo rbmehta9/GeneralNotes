@@ -110,5 +110,8 @@ this will push the code to your current branch.
 Change Path executable for windows service
 SC CONFIG ContentDirectWorkflowService binPath= "d:\apps\contentdirect\workflowmanagement\bin\ContentDirect.WorkflowManagement.WindowsService.exe"
 
+remove cached
+git rm -r --cached C:/Ritesh/Practice/ScratchPad/.vs
+
 
 
