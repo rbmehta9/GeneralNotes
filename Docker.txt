@@ -1,0 +1,22 @@
+https://dot.net
+code.visualstudio.com
+
+Docker engine
+docs.docker.com/install
+
+postman
+
+create webapi using dotnet cli
+dotnet new webapi -o <name> --no-https
+
+open code in vscode:
+code .
+
+View -> command pallette
+docker:Add docker files to workspace
+
+create image Docker:
+docker build -t <name>:<version>
+
+run docker
+docker run -it --rm p 8080:80 <name>:<version>      (first is app port and second is docker to to map to)

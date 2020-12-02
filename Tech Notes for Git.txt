@@ -113,5 +113,16 @@ SC CONFIG ContentDirectWorkflowService binPath= "d:\apps\contentdirect\workflowm
 remove cached
 git rm -r --cached C:/Ritesh/Practice/ScratchPad/.vs
 
+Multiple github repos access denied error
+remote: Permission to rbmehta9/GeneralNotes.git denied to ritesh-pangea.
+fatal: unable to access 'https://github.com/rbmehta9/GeneralNotes.git/': The requested URL returned error: 403
+https://dev.to/configcat/lazy-man-s-guide-multiple-github-https-accounts-on-windows-2mad#:~:text=Removing%20current%20GitHub%20credentials%20from,credentials%20from%20the%20credential%20manager.
+
+
+overwrite modified files
+https://forum.freecodecamp.org/t/git-pull-how-to-override-local-files-with-git-pull/13216
+git fetch --all
+git reset --hard origin/master
+
 
 
