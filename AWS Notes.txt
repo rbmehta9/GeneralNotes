@@ -1,0 +1,14 @@
+Create a aws profile:
+if nothing entered for profile a default profile will be created
+aws configure --profile myprofile
+AWS Access Key ID [None]: <ACCESSKEY>
+AWS Secret Access Key [None]: <SECRETKEY>
+Default region name [None]: <REGIONNAME>
+Default output format [None]: text | table | json (just enter without
+anything if none)
+
+
+List profile (if no profile, it will list default)
+aws configure list [--profile profile-name]
+
+
