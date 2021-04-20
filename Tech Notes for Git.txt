@@ -124,5 +124,11 @@ https://forum.freecodecamp.org/t/git-pull-how-to-override-local-files-with-git-p
 git fetch --all
 git reset --hard origin/master
 
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+
 
 

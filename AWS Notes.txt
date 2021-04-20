@@ -11,4 +11,8 @@ anything if none)
 List profile (if no profile, it will list default)
 aws configure list [--profile profile-name]
 
+List all profiles:
+aws configure list-profiles
+
+
 
